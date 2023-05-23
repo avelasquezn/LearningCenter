@@ -15,11 +15,8 @@ import java.util.List;
 
 public class StudentMapper implements Serializable {
 
+    @Autowired
     private EnhancedModelMapper mapper;
-
-    public StudentMapper(EnhancedModelMapper mapper) {
-        this.mapper = mapper;
-    }
 
     public StudentResource toResource(Student model) {
         return mapper.map(model, StudentResource.class);
