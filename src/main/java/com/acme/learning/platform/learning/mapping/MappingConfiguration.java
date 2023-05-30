@@ -10,4 +10,9 @@ public class MappingConfiguration {
     public StudentMapper studentMapper() {
         return new StudentMapper();
     }
+
+    @Bean
+    public SkillMapper skillMapper() {
+        return new SkillMapper();
+    }
 }
