@@ -5,9 +5,11 @@ import com.acme.learning.platform.learning.domain.model.Skill;
 import com.acme.learning.platform.learning.domain.model.Student;
 import com.acme.learning.platform.learning.domain.service.SkillService;
 import com.acme.learning.platform.learning.domain.service.StudentService;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class LearningContextFacadeImpl implements LearningContextFacade {
 
     private final SkillService skillService;
