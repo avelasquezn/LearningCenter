@@ -1,8 +1,6 @@
 package com.acme.learning.platform.security.domain.service.communication;
 
 import com.acme.learning.platform.shared.domain.service.communication.BaseResponse;
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotNull;
 import lombok.Getter;
 import lombok.Setter;
 
